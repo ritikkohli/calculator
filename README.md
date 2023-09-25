@@ -4,4 +4,5 @@
 .
 .
 .
-![image](https://github.com/ritikkohli/calculator/assets/108524122/299e6533-7b68-4dfb-a0ab-251e4bcb3269)
+![image](https://github.com/ritikkohli/calculator/assets/108524122/7013a4a4-debe-455c-8ff3-b040b3db19e5)
+
