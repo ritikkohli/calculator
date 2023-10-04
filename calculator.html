@@ -16,27 +16,35 @@
     </form>
 
     <div class = "buttons">
-      <button type = "button" class="btn btn-yellow btn-mul" data-num="*">*</button>
-      <button type = "button" class="btn btn-yellow btn-div" data-num="/">/</button>  
-      <button type = "button" class="btn btn-yellow" data-num="-">-</button>  
-      <button type = "button" class="btn btn-yellow" data-num="+">+</button>  
+        <div id="first-row">
+            <button type = "button" class="btn-clear">C</button>
+            <button type = "button" class="btn btn-yellow btn-div" data-num="/">/</button>  
+            <button type = "button" class="btn btn-yellow btn-mul" data-num="*">*</button>
+            <button type = "button" class="btn btn-yellow" data-num="-">-</button>
+        </div>
 
-      <button type = "button" class="btn btn-grey" data-num="9">9</button>
-      <button type = "button" class="btn btn-grey" data-num="8">8</button>
-      <button type = "button" class="btn btn-grey" data-num="7">7</button>
-      <button type = "button" class="btn btn-grey" data-num="6">6</button>
-      <button type = "button" class="btn btn-grey" data-num="5">5</button>
-      <button type = "button" class="btn btn-grey" data-num="4">4</button>
-      <button type = "button" class="btn btn-grey" data-num="3">3</button>
-      <button type = "button" class="btn btn-grey" data-num="2">2</button>
-      <button type = "button" class="btn btn-grey" data-num="1">1</button>
-      <button type = "button" class="btn btn-grey" data-num="0">0</button>
-      <button type = "button" class="btn btn-grey" data-num=".">.</button>
+        <div id="remaining-rows">
+            <div id="numbers">
+                <button type = "button" class="btn btn-grey" data-num="7">7</button>
+                <button type = "button" class="btn btn-grey" data-num="8">8</button>
+                <button type = "button" class="btn btn-grey" data-num="9">9</button>
 
-      <button type = "button" class="btn-equal">=</button>
-      <button type = "button" class="btn-clear">C</button>
+                <button type = "button" class="btn btn-grey" data-num="4">4</button>
+                <button type = "button" class="btn btn-grey" data-num="5">5</button>
+                <button type = "button" class="btn btn-grey" data-num="6">6</button>
 
+                <button type = "button" class="btn btn-grey" data-num="1">1</button>
+                <button type = "button" class="btn btn-grey" data-num="2">2</button>
+                <button type = "button" class="btn btn-grey" data-num="3">3</button>
 
+                <button type = "button" id="zero" class="btn btn-grey" data-num="0">0</button>
+                <button type = "button" class="btn btn-grey" data-num=".">.</button>
+            </div>
+            <div id="side-column">
+                <button type = "button" class="btn btn-yellow" data-num="+">+</button>  
+                <button type = "button" class="btn-equal">=</button>
+            </div>
+        </div>
       </div>
 </section>
         <script src="App.js"></script>
