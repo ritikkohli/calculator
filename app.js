@@ -4,6 +4,8 @@
     let buttons = document.querySelectorAll('.btn');
     let clear = document.querySelector('.btn-clear');
     let equal = document.querySelector('.btn-equal');
+    let multiply = document.querySelector('.btn-mul');
+    let divide = document.querySelector('.btn-div');
 
     buttons.forEach(function(button){
         button.addEventListener('click', function(e){
